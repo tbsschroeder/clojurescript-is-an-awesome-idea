@@ -30,8 +30,14 @@
       <section data-background-image="img/bg/berlin.jpg">
       </section>
 
-      <section data-background-image="img/bg/gluecksbaerchi.jpg">
-      </section>
+    <section data-background-image="img/bg/gluecksbaerchi.jpg">
+    </section>
+
+    <section class="grayscale" data-background-image="img/bg/gluecksbaerchi.jpg" data-background-opacity="0.2">
+      <h1>What is your favourite Programming Langauge?</h1>
+      <br><br>
+      <h5>Please leave a comment in the chat.</h5>
+    </section>
       
       <section>
         <div class="flex-container" style="font-size: 1.3em;">
@@ -81,7 +87,7 @@
       </section>
 
       <section class="center">
-        <p class="gotham" style="position: absolute; top: 1em; left: 1em; transform: rotate(-35deg);">Why Clojure(Script)?</p>
+        <p class="gotham" style="position: absolute; top: 1em; left: 1em; transform: rotate(-35deg);">Why Clojure?</p>
         <img src="img/dontknow.png" style="bottom:-2em">
         <Ol class="gotham" style="position: absolute; bottom: 10%; left: 43%; color: black">
           <li class="fragment fade-in">Simple</li>
@@ -91,61 +97,20 @@
         </Ol>
       </section>
       
-      <!--
-      <section class="center grayscale" data-background-image="img/bg/depot.jpg" data-background-opacity="0.05" data-auto-animate>
-        <h3>But why Clojure?</h3>
-        <div class="flex-wrap">
-          <div class="card card-space" data-id="card1">
-            <p class="fragment fade-in" data-fragment-index="0">Simple</p>
-          </div>
-          <div class="card card-space" data-id="card2">
-            <p class="fragment fade-in" data-fragment-index="2">Functional</p>
-          </div>
-          <div class="card card-space" data-id="card3">
-            <p class="fragment fade-in" data-fragment-index="4">Interop</p>
-          </div>
-          <div class="card card-space" data-id="card4">
-            <p class="fragment fade-in" data-fragment-index="6">LISP</p>
-          </div>
-        </div>
-        <div class="outer card-bg" style="width: 98%; margin-top: 0.75em; height: 3em; margin-left: 0.3em"  data-id="blackbg">
-          <div class="inner center fragment fade-in-then-out" data-fragment-index="1" style="width: 99%">
-            <span class="fira">
-              <span class="metro-digital-blue">(</span><span class="metro-digital-red">+</span> 1 2<span class="metro-digital-blue">)</span>
-              <br><span class="metro-digital-green">=></span> 3
-            </span>
-          </div>
-          <div class="inner fragment fade-in-then-out" data-fragment-index="3" style="width: 99%">
-              <p style="margin: 0.5em"></p>
-            <span class="fira">Immutability / Pure Funcs / Small Modules</span>
-          </div>
-          <div class="inner fragment fade-in-then-out" data-fragment-index="5" style="width: 99%">
-            <div style="margin-top: 0.2em;">
-              <span style="position: relative; top: -0.4em;">Polyglot programming:</span>
-              <img src="img/clj-logo.png" style="height: 1.5em">
-              <span class="fira" style="position: relative; top: -0.4em;"><=></span>
-              <img src="img/java-cup.png" style="height: 1.7em">
-              <span class="fira" style="position: relative; top: -0.4em;">&&</span>
-              <img src="img/panda.png" style="height: 1.5em">
-            </div>
-          </div>
-          <div class="inner fragment fade-in" data-fragment-index="7" style="width: 99%">
-            <p style="margin: 0.5em"></p>
-            <span class="fira" style="margin-top: 0.5em;">Easy since 1958 / REPL / Collections & Lists</span>
-          </div>
-        </div>
-        <aside class="notes">
-          Interop => Polyglot Programming
-          <br>
-          <br>
-          "As a default architecture mutable objects are terrible."
-          <br>
-          "If you want everything to be familiar, you'll never learn anything new"
-          <br>
-          "Simplicity is hard work. But in the long haul the person with a simpler system is gonna wipe the plate with you. Because they can change things when you are struggling to push elephants around"
-        </aside>
+      <section data-background-image="img/bg/reason.jpg" data-auto-animate>
       </section>
-      -->
+      
+      <section class="grayscale" data-background-image="img/bg/reason.jpg" data-background-opacity="0.1" data-auto-animate>
+        <h3>Why ClojureScript?</h3>
+        <ol style="font-size: 1.2em;">
+          <li>re-frame gives you a fully data-driven architecture</li>
+          <li class="fragment fade-in">Simpler build system than JS</li>
+          <li class="fragment fade-in">Less churn ecosystem</li>
+          <li class="fragment fade-in">Clojure.spec</li>
+          <li class="fragment fade-in">Clojure in the backend ⭢ Code Sharing</li>
+        </ol>
+        <!--https://clojureverse.org/t/is-clojurescript-still-worth-it-for-a-js-react-dev/5303-->
+      </section>
 
       <section class="center">
         <h3>Higher Order Functions</h3>
@@ -393,7 +358,10 @@
         </code></pre>
       </section>
 
-      <section data-background-image="img/bg/yawn.jpg">
+      <section data-background-image="img/bg/yawn.jpg" data-background-opacity="0.2">
+        <h1>Are you still with me?</h1>
+        <br><br>
+        <h5>Please leave a comment in the chat.</h5>
       </section>
 
       <section data-background-image="img/bg/domino.jpg" data-background-opacity="0.2">
@@ -439,9 +407,7 @@
       </section>
 
       <section class="center" data-background-image="img/bg/berlin.jpg" data-background-opacity="0.2">
-        <h4 class="metro-digital-green">📧 tobias.schroeder@metro.digital 📧</h4>
-        <img src="img/qrcode.svg" style="height: 13em; margin-top: 0.5em;">
-        <div id="hashtag-cloud" class="center">
+        <img src="img/qr-code.png" style="height: 13em; margin-top: 0.5em;">
           <strong>
             <div>
               <table>
@@ -449,19 +415,24 @@
                   <td>
                     <span class="metro-digital-gold" style="vertical-align: middle; padding-top: 1em;">
                       <i class="fab fa-twitter"></i>
-                      <span>and</span>
-                      <i class="fab fa-instagram"></i>:
+                      <span> / </span>
+                      <i class="fab fa-instagram"></i>
+                      <span> / </span>
+                      <i class="metro-digital-gold fab fa-linkedin"></i>
                     </span>
                   </td>
                   <td>
-                    <span class="metro-digital-orange">@tbsschroeder</span><br>
-                    <span class="metro-digital-orange">@METROdigital_DE</span>
+                    <span class="metro-digital-orange">tbsschroeder / Tobias Schröder</span><br>
+                    <span class="metro-digital-blue">METROdigital_DE</span>
                   </td>
+                </tr>
+                <tr>
+                  <td class="center"><i class="metro-digital-gold fa fa-envelope"></i></td>
+                  <td class="metro-digital-green">tobias.schroeder@metro.digital</td>
                 </tr>
               </table>
             </div>
           </strong>
-        </div>
       </section>
 
     </div>
