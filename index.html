@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-  <title>CLJ</title>
+  <title>CLJS</title>
 
   <link rel="stylesheet" href="css/fontawesome-5.4.1.all.css">
   <link rel="stylesheet" href="css/reveal.css">
@@ -23,23 +23,13 @@
   <div class="reveal">
     <div id="footer">
       <img class="footer-img" id="footer-left" src="img/logo-white.png" alt="footer-left">
-      <img class="footer-img" id="footer-right" src="img/wad.svg" alt="footer-right">
+      <img class="footer-img" id="footer-right" src="img/codetalks-white.png" alt="footer-right">
     </div>
 
     <div class="slides">
-      <section data-background-image="img/bg/berlin.jpg">
-      </section>
+    <!-- <section data-background-image="img/bg/berlin.jpg"></section> -->
 
-    <section data-background-image="img/bg/gluecksbaerchi.jpg">
-    </section>
-
-    <section class="grayscale" data-background-image="img/bg/gluecksbaerchi.jpg" data-background-opacity="0.2">
-      <h1>What is your favourite Programming Langauge?</h1>
-      <br><br>
-      <h5>Please leave a comment in the chat.</h5>
-    </section>
-      
-      <section>
+      <section data-background-image="img/bg/hamburg.jpeg"  data-background-opacity="0.5">
         <div class="flex-container" style="font-size: 1.3em;">
           <div style="width: 20%;">
               <img src="img/cljs.svg" style="vertical-align: middle; padding-top: 2em;">
@@ -53,10 +43,13 @@
         </div>
       </section>
       
-      <section class="center" data-background-image="img/bg/berlin-metro.jpg">
+      <section class="center" data-background-image="img/bg/private.jpeg">
       </section>
       
-      <section class="center grayscale" data-background-image="img/bg/berlin-metro.jpg" data-background-opacity="0.5" data-auto-animate>
+      <section class="center" data-background-image="img/bg/metro.jpg">
+      </section>
+      
+      <section class="center grayscale" data-background-image="img/bg/metro.jpg" data-background-opacity="0.5" data-auto-animate>
         <div class="center" style="position: absolute; width: 140%; left: -20%; padding-bottom: 1em;" data-id="blackbg">
           <div class="center" style="width: 30em;">
             <img src="img/logo-white.png" style="padding: 1em; width: 50%">
@@ -68,7 +61,7 @@
               </div>
               <div class="card card-space-sm" data-id="card2">
                 <p class="fragment fade-in" style="line-height: 1;">
-                  &gt;25<br><span style="font-size: 0.5em;">Countries</span>
+                  &gt;20<br><span style="font-size: 0.5em;">Countries</span>
                 </p>
               </div>
               <div class="card card-space-sm" data-id="card3">
@@ -81,35 +74,40 @@
                   &gt;1000<br><span style="font-size: 0.5em;">Employees</span>
                 </p>
               </div>
+              <div class="card card-space-sm" data-id="card5">
+                <p class="fragment fade-in" style="line-height: 1;">
+                  Remote<br><span style="font-size: 0.5em;">First</span>
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </section>
-
-      <section class="center">
-        <p class="gotham" style="position: absolute; top: 1em; left: 1em; transform: rotate(-35deg);">Why Clojure?</p>
-        <img src="img/dontknow.png" style="bottom:-2em">
-        <Ol class="gotham" style="position: absolute; bottom: 10%; left: 43%; color: black">
-          <li class="fragment fade-in">Simple</li>
-          <li class="fragment fade-in">Functional</li>
-          <li class="fragment fade-in">Interop</li>
-          <li class="fragment fade-in">LISP</li>
-        </Ol>
       </section>
       
       <section data-background-image="img/bg/reason.jpg" data-auto-animate>
       </section>
       
-      <section class="grayscale" data-background-image="img/bg/reason.jpg" data-background-opacity="0.1" data-auto-animate>
-        <h3>Why ClojureScript?</h3>
-        <ol style="font-size: 1.2em;">
-          <li>re-frame gives you a fully data-driven architecture</li>
-          <li class="fragment fade-in">Simpler build system than JS</li>
-          <li class="fragment fade-in">Less churn ecosystem</li>
-          <li class="fragment fade-in">Clojure.spec</li>
-          <li class="fragment fade-in">Clojure in the backend ⭢ Code Sharing</li>
-        </ol>
-        <!--https://clojureverse.org/t/is-clojurescript-still-worth-it-for-a-js-react-dev/5303-->
+      <section class="grayscale" data-background-image="img/bg/reason.jpg" data-background-opacity="0.2" data-auto-animate>
+        <div style="width: 35%; display:inline-block;">
+          <h3 class="metro-digital-green">Why Clojure?</h3>
+          <ol style="font-size: 1.2em;">
+            <li class="fragment fade-in">Simple</li>
+            <li class="fragment fade-in">Functional</li>
+            <li class="fragment fade-in">Interop</li>
+            <li class="fragment fade-in">LISP<br>&nbsp;</li>
+          </ol>
+        </div>
+        <div style="width:57%; display:inline-block;">
+          <h3 class="fragment fade-in metro-digital-aqua">Why ClojureScript?</h3>
+          <ol style="font-size: 1.2em;">
+            <li class="fragment fade-in">re-frame / reagent / hiccup</li>
+            <li class="fragment fade-in">build system</li>
+            <li class="fragment fade-in">less churn ecosystem</li>
+            <li class="fragment fade-in">clojure.spec</li>
+            <li class="fragment fade-in">code sharing</li>
+          </ol>
+          <!--https://clojureverse.org/t/is-clojurescript-still-worth-it-for-a-js-react-dev/5303-->
+        </div>
       </section>
 
       <section class="center">
@@ -123,14 +121,7 @@
             </p>
             <p class="fragment fade-in">
               <span class="clj-res">=></span>
-              <span class="clj-core">[</span>
-              <span class="fragment fade-in">
-                <span>🍔</span>
-                <span>🍟</span>
-                <span>🍗</span>
-                <span>🍿</span>
-              </span>
-              <span class="clj-core">]</span>
+              <span class="clj-core">[ 🍔 🍟 🍗 🍿 ]</span>
             </p>
           </li>
           <li>
@@ -140,23 +131,18 @@
               <span class="clj-core">[</span>🍔 🍟 🍗 🍿<span class="clj-core">]</span>)
             </p>
             <p class="fragment fade-in"><span class="clj-res">=></span>
-              <span class="clj-core">[</span>
-              <span class="fragment fade-in">
-                <span>🍟</span>
-                <span>🍿</span>
-              </span>
-              <span class="clj-core">]</span>
+              <span class="clj-core">[ 🍟 🍿 ]</span>
             </p>
           </li>
           <li>
             <p class="fragment fade-in">
               (<span class="clj-symbol">reduce</span>
               <span class="clj-arg">eat</span>
-              <span class="clj-core">[</span>🍔 🍟 🍗 🍿<span class="clj-core">]</span>)
+              <span class="clj-core">[ 🍔 🍟 🍗 🍿 ]</span>)
             </p>
             <p class="fragment fade-in">
               <span class="clj-res">=></span>
-              <span class="fragment fade-in">💩</span>
+              <span>💩</span>
             </p>
           </li>
         </ul>
@@ -227,14 +213,46 @@
         <span style="font-size: 0.3em">Powered by <a href="https://roman01la.github.io/javascript-to-clojurescript/" target="_blank">https://roman01la.github.io/javascript-to-clojurescript/</a></span>
       </section>
 
-      <section data-background-image="img/bg/clj-basics.png">
+      <section data-background-image="img/bg/project.png" data-background-size="2000px 1300px">
       </section>
 
-      <section data-auto-animate data-background-image="img/bg/clj-basics.png" data-background-opacity="0.05">
+      <section data-background-image="img/bg/project.png" data-background-size="2000px 1300px" data-background-opacity="0.7">
+        <div style="padding-left: 5em">
+          <h4 class="fira">
+            <span class="metro-digital-aqua">First </span>
+            <span class="metro-digital-green">Steps </span>
+            <span class="metro-digital-gold">in </span>
+            <span class="metro-digital-orange">a </span>
+            <span class="metro-digital-red">Project</span>
+          </h4>
+          <br>
+          <div style="width: 40%; display:inline-block;">
+            <h5 class="metro-digital-blue">Important files</h5>
+            <ul>
+              <li>deps.edn</li>
+              <li>shadow-cljs.edn</li>
+              <li>package.json<br>&nbsp;<br>&nbsp;</li>
+            </ul>
+          </div>
+          <div style="width: 40%; display:inline-block;">
+            <h5 class="metro-digital-lila">Framework: reframe</h5>
+              <ul>
+                <li class="fira">Events</li>
+                <li class="fira">Effects</li>
+                <li class="fira">Queries</li>
+                <li class="fira">Views</li>
+                <li class="fira">Events</li>
+              </ul>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section data-auto-animate data-background-image="img/bg/project.png" data-background-size="2000px 1300px" data-background-opacity="0.2">
         <h3>deps.edn</h3>
       </section>
 
-      <section data-auto-animate data-background-image="img/bg/clj-basics.png" data-background-opacity="0.05">
+      <section data-auto-animate data-background-image="img/bg/project.png" data-background-size="2000px 1300px" data-background-opacity="0.2">
         <h3>deps.edn</h3>
         <pre data-id="code-animation"><code data-trim class="clojure" data-line-numbers="2-4">
           {
@@ -245,7 +263,7 @@
         </code></pre>
       </section>
 
-      <section data-auto-animate data-background-image="img/bg/clj-basics.png" data-background-opacity="0.05">
+      <section data-auto-animate data-background-image="img/bg/project.png" data-background-size="2000px 1300px" data-background-opacity="0.2">
         <h3>deps.edn</h3>
         <pre data-id="code-animation"><code data-trim class="clojure" data-line-numbers="6-7">
           {
@@ -259,7 +277,7 @@
         </code></pre>
       </section>
 
-      <section data-auto-animate data-background-image="img/bg/clj-basics.png" data-background-opacity="0.05">
+      <section data-auto-animate data-background-image="img/bg/project.png" data-background-size="2000px 1300px" data-background-opacity="0.2">
         <h3>deps.edn</h3>
         <pre data-id="code-animation"><code data-trim class="clojure" data-line-numbers="9-11">
           {
@@ -277,11 +295,11 @@
         </code></pre>
       </section>
 
-      <section data-auto-animate data-background-image="img/bg/clj-basics.png" data-background-opacity="0.05">
+      <section data-auto-animate data-background-image="img/bg/project.png" data-background-size="2000px 1300px" data-background-opacity="0.2">
         <h3>shadow.cljs</h3>
       </section>
 
-      <section data-auto-animate data-background-image="img/bg/clj-basics.png" data-background-opacity="0.05">
+      <section data-auto-animate data-background-image="img/bg/project.png" data-background-size="2000px 1300px" data-background-opacity="0.2">
         <h3>shadow.cljs</h3>
         <pre data-id="code-animation"><code data-trim class="clojure" data-line-numbers="">
           {
@@ -295,18 +313,27 @@
         </code></pre>
       </section>
 
-      <section data-background-image="img/bg/clj-basics.png" data-background-opacity="0.05">
+      <section data-background-image="img/bg/project.png" data-background-size="2000px 1300px" data-background-opacity="0.2">
         <div class="center">
           <img style="width: 80%" src="img/re-frame-colour.svg">
-          <p class="fragment fade-in" style="position: relative; top: -2em">CLJS -> LISP -> homoiconic</p>
-          <p class="fragment fade-in" style="position: relative; top: -2em">Programming in Data</p>
         </div>
         </ul>
       </section>
 
+      <!--
       <section data-background-image="img/bg/clj-basics.png" data-background-opacity="0.05">
         <img src="img/bg/water.png">
         <strong class="center fragment fade-in" style="position: absolute; top: 1.4em; left: 7em; width: 6em; transform: rotate(-15deg); background: white; color: #647DEB;">DATA</strong>
+      </section>
+      -->
+
+      <section data-background-image="img/bg/loop.jpg">
+      </section>
+
+      <section class="grayscale"  data-background-image="img/bg/loop.jpg" data-background-opacity="0.5">
+        <div class="center metro-digital-bg-gold" style="width: 800px; border-radius: 30%;">
+          <img style="width: 800px;" src="img/re-frame-colour.png">
+        </div>
       </section>
 
       <section data-background-image="img/bg/domino.jpg">
@@ -317,9 +344,9 @@
           <li class="metro-digital-blue">Event dispatch: Sending events</li>
           <li class="metro-digital-lila fragment fade-in"><span>Event handling:</span> Take actions</li>
           <li class="metro-digital-aqua fragment fade-in"><span>Effect handling:</span> Sideeffects where data are actions</li>
-          <li class="metro-digital-green fragment fade-in"><span>Query:</span> extracting data from "app state"</li>
-          <li class="metro-digital-gold fragment fade-in"><span>View:</span> render UI</li>
-          <li class="metro-digital-orange fragment fade-in"><span>DOM:</span> done by Reagent/React</li>
+          <li class="metro-digital-green fragment fade-in"><span>Query:</span> Extracting data from 'app state'</li>
+          <li class="metro-digital-gold fragment fade-in"><span>View:</span> Render UI</li>
+          <li class="metro-digital-orange fragment fade-in"><span>DOM:</span> Done by Reagent/React</li>
         </ol>
       </section>
 
@@ -330,9 +357,6 @@
             [:div.garbage-bin 
               :on-click #(re-frame.core/dispatch [:delete-item item-id])])
         </code></pre>
-        <pre class="fragment fade-in"><code data-trim class="clojure" data-line-numbers="">
-          #(re-frame.core/dispatch [:delete-item item-id])
-        </code></pre>
       </section>
 
       <section data-background-image="img/bg/domino.jpg" data-background-opacity="0.2">
@@ -340,32 +364,46 @@
         <pre><code data-trim class="clojure" data-line-numbers="">
           (re-frame.core/reg-event-fx   ;; a part of the re-frame API
             :delete-item                ;; the kind of event
-            h)                          ;; the handler function for this kind of event
+            del-item)                   ;; the handler function for this kind of event
         </code></pre>
         <pre class="fragment fade-in"><code data-trim class="clojure" data-line-numbers="">
-          (defn h                           ;; maybe choose a better name like `delete-item`
-            [coeffects event]               ;; `coeffects` holds the current state of the world
-            (let [item-id  (second event)   ;; extract id from event vector
-                  db       (:db coeffects)  ;; extract the current application state
+          (defn del-item
+            [coeffects event]                 ;; `coeffects` holds the current state of the world
+            (let [item-id  (second event)     ;; extract id from event vector
+                  db       (:db coeffects)    ;; extract the current application state
                   new-db   (dissoc-in db [:items item-id])]   ;; new app state
-              {:db new-db}))                ;; a map of the necessary effects 
+              {:db new-db}))                  ;; a map of the necessary effects 
         </code></pre>
       </section>
 
       <section data-background-image="img/bg/domino.jpg" data-background-opacity="0.2">
         <h3>Domino 3 - Effect Handling</h3>
         <pre data-id="code-animation"><code data-trim class="clojure" data-line-numbers="">
-          (re-frame.core/reg-fx       ;; part of the re-frame API
-            :db                       ;; the effects key 
-            (fn [val]                 ;; the handler function for the effect
-              (reset! app-db val)))   ;; put the new value into the ratom app-db
+          (re-frame.core/reg-fx         ;; part of the re-frame API
+            :db                         ;; the effects key 
+            (fn [val]                   ;; the handler function for the effect
+              (reset! app-db val)))     ;; put the new value into the ratom app-db
         </code></pre>
       </section>
 
-      <section data-background-image="img/bg/yawn.jpg" data-background-opacity="0.2">
+      <section class="center" data-background-image="img/bg/yawn.jpg" data-background-opacity="0.2">
         <h1>Are you still with me?</h1>
-        <br><br>
-        <h5>Please leave a comment in the chat.</h5>
+        <br>
+        <h5>Some code is coming soon!</h5>
+        <br>
+        <h5 class="fragment fade-in">Sorry ... I've got a PhD in compute science - I Love Theory! 🤓<br><smalL>Because I fail in practice...</smalL></h5>
+      </section>
+
+      <section data-background-image="img/bg/domino.jpg" data-background-opacity="0.2">
+        <h1 class="fira center strong">
+          <span class="metro-digital-blue">v</span><span class="metro-digital-lila">=</span><span class="metro-digital-aqua">f</span><span class="metro-digital-green">(</span><span class="metro-digital-gold">s</span><span class="metro-digital-orange">)</span>
+        </h1>
+        <br>
+        <h6 class="fira center strong fragment fade-in">
+          <span class="metro-digital-blue">A view, v, </span><br>
+          <span class="metro-digital-aqua">is a function, f, </span><br>
+          <span class="metro-digital-gold">of the app state, s.</span><br>
+        </h6>
       </section>
 
       <section data-background-image="img/bg/domino.jpg" data-background-opacity="0.2">
@@ -377,8 +415,8 @@
         </code></pre>
         <pre class="fragment fade-in"><code data-trim class="clojure" data-line-numbers="">
           (re-frame.core/reg-sub  ;; part of the re-frame API
-            :query-items         ;; query id  
-            query-fn)            ;; function to perform the query 
+            :query-items          ;; query id  
+            query-fn)             ;; function to perform the query 
         </code></pre>
       </section>
 
@@ -388,7 +426,7 @@
           (defn items-view
             []
             (let [items  (subscribe [:query-items])]  ;; source items from app state
-              [:div (map item-render @items)]))   ;; assume item-render already written
+              [:div (map item-render @items)]))       ;; assume item-render already written
         </code></pre>
       </section>
 
@@ -400,39 +438,33 @@
 
       <section class="center">
         <a href="http://localhost:8700" target="_blank">
-          <img src="img/shop.png" style="width: 60%">
+          <img src="img/shop.png" style="width: 100%">
         </a>
         <a href="https://github.com/tbsschroeder/clojurescript-webshop-app" target="_blank">
           <small>https://github.com/tbsschroeder/clojurescript-webshop-app</small>
         </a>
       </section>
 
-      <section data-background-image="img/bg/gluecksbaerchi-cljs.jpg">
+      <section class="center" style="top:0; height: 100%; width: 1000px;">
+        <iframe src="http://localhost:8700" title="Shop" width="100%" height="100%" style="border:1px solid black; max-width: 100%"></iframe>
       </section>
 
-      <section class="center" data-background-image="img/bg/berlin.jpg" data-background-opacity="0.2">
+      <section class="center" data-background-image="img/bg/metro.jpg" data-background-opacity="0.1">
         <img src="img/qr-code.png" style="height: 13em; margin-top: 0.5em;">
           <strong>
             <div>
               <table>
                 <tr>
-                  <td>
-                    <span class="metro-digital-gold" style="vertical-align: middle; padding-top: 1em;">
-                      <i class="fab fa-twitter"></i>
-                      <span> / </span>
-                      <i class="fab fa-instagram"></i>
-                      <span> / </span>
-                      <i class="metro-digital-gold fab fa-linkedin"></i>
-                    </span>
-                  </td>
-                  <td>
-                    <span class="metro-digital-orange">tbsschroeder / Tobias Schröder</span><br>
-                    <span class="metro-digital-blue">METROdigital_DE</span>
-                  </td>
+                  <td class="center"><i class="metro-digital-gold fab fa-github"></i></td>
+                  <td class="metro-digital-orange">tbsschroeder (<a href="https://github.com/tbsschroeder" target="_blank">link</a>)</td>
+                </tr>
+                <tr>
+                  <td class="center"><i class="metro-digital-gold fab fa-linkedin"></i></td>
+                  <td class="metro-digital-blue">Dr. Tobias Schröder (<a href="https://www.linkedin.com/in/tobias-schr%C3%B6der-dr-8882a382/" target="_blank">link</a>)</td>
                 </tr>
                 <tr>
                   <td class="center"><i class="metro-digital-gold fa fa-envelope"></i></td>
-                  <td class="metro-digital-green">tobias.schroeder@metro.digital</td>
+                  <td class="metro-digital-green">tobias.schroeder@metro.digital (<a href="mailto:tobias.schroeder@metro.digital" target="_blank">link</a>)</td>
                 </tr>
               </table>
             </div>

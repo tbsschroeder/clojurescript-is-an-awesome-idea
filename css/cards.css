@@ -5,21 +5,21 @@
 }
 
 .card-space {
-  flex: 0 1 22%;
+  flex: 0 1 18%;
   margin: 0.25em !important;
   border-radius: 0.5em;
   color: #fff;
 }
 
 .card-space-sm {
-  flex: 0 1 22%;
+  flex: 0 1 18%;
   margin: 0.25em !important;
   border-radius: 0.5em;
   color: #fff;
 }
 
 .card-space-sm p{
-  font-size: 2em;
+  font-size: 1.5em;
   color: white;
 }
 
@@ -36,10 +36,11 @@
 .card:nth-child(1) {  background-color: #AFDC64;  font-weight: 800;}
 .card:nth-child(2) {  background-color: #F0D278;  font-weight: 800;}
 .card:nth-child(3) {  background-color: #F58C6E;  font-weight: 800;}
-.card:nth-child(4) {  background-color: #FF5A78;  font-weight: 800;
-}
+.card:nth-child(4) {  background-color: #FF5A78;  font-weight: 800;}
+.card:nth-child(5) {  background-color: #B987FA;  font-weight: 800;}
 
 .card .col1 {  color: #AFDC64 !important;}
 .card .col2 {  color: #F0D278 !important;}
 .card .col3 {  color: #F58C6E !important;}
 .card .col4 {  color: #FF5A78 !important;}
+.card .col5 {  color: #B987FA !important;}
