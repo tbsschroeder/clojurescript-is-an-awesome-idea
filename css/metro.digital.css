@@ -125,6 +125,10 @@ body.dark .reveal h3 {
      border-bottom: 2px solid #647DEB;
 }
 
+ul.no-padding {
+     padding-left: 0;
+}
+
 /*********************************************
   * COLORS
   *********************************************/
@@ -149,6 +153,31 @@ body.dark .reveal h3 {
 .metro-digital-bg-orange{ background-color: #F58C6E !important; border-radius: 5px; padding: 10px; }
 .metro-digital-bg-red{ background-color: #FF5A78 !important; border-radius: 5px; padding: 10px; }
 
+.metro-digital-darkblue-box{ border-color: #051428; background-color: rgba(5, 20, 40, 0.1); }
+.metro-digital-blue-box{ border-color: #647DEB; background-color: rgba(100, 125, 235, 0.1); }
+.metro-digital-white-box{ border-color: #FFFFFF; background-color: rgba(255, 255, 255, 0.1); }
+.metro-digital-lila-box{ border-color: #B987FA; background-color: rgba(185, 135, 250, 0.1); }
+.metro-digital-aqua-box{ border-color: #05DCC8; background-color: rgba(5, 220, 200, 0.1); }
+.metro-digital-green-box{ border-color: #AFDC64; background-color: rgba(175, 220, 100, 0.1); }
+.metro-digital-gold-box{ border-color: #F0D278; background-color: rgba(240, 210, 120, 0.1); }
+.metro-digital-orange-box{ border-color: #F58C6E; background-color: rgba(245, 140, 110, 0.1); }
+.metro-digital-red-box{ border-color: #FF5A78; background-color: rgba(255, 90, 120, 0.1); }
+
+.metro-digital-darkblue-box,
+.metro-digital-blue-box,
+.metro-digital-white-box,
+.metro-digital-lila-box,
+.metro-digital-aqua-box,
+.metro-digital-green-box,
+.metro-digital-gold-box,
+.metro-digital-orange-box,
+.metro-digital-red-box {
+     border-radius: 5%;
+     border-style: solid;
+     padding: 0.2em;
+     padding: 0.2em;
+}
+
 .reveal .slides section .fragment.highlight-digital-darkblue,
 .reveal .slides section .fragment.highlight-digital-blue
 .reveal .slides section .fragment.highlight-digital-white,
@@ -162,8 +191,6 @@ body.dark .reveal h3 {
      visibility: inherit;
 }
 
-
-
 .reveal .slides section .fragment.highlight-metro-digital-darkblue{ color: #051428;}
 .reveal .slides section .fragment.highlight-metro-digital-blue{ color: #647DEB;}
 .reveal .slides section .fragment.highlight-metro-digital-white{ color: #FFFFFF;}
@@ -173,7 +200,6 @@ body.dark .reveal h3 {
 .reveal .slides section .fragment.highlight-metro-digital-gold{ color: #F0D278;}
 .reveal .slides section .fragment.highlight-metro-digital-orange{ color: #F58C6E;}
 .reveal .slides section .fragment.highlight-metro-digital-red{ color: #FF5A78;}
-
 
 #footer-left{
      position: absolute;
